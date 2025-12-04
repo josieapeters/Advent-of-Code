@@ -1,1 +1,0 @@
-Repository of code for the Advent of Code challege, 2025. The challenge: www.adventofcode.com
