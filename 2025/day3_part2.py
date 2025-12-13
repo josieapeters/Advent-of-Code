@@ -5,6 +5,11 @@ import sys
 
 
 def find_max_joltage(bank: str, n_batteries: int) -> int:
+    """
+    Going through the bank of batteries, look at the window of available
+    batteries, such that enough batteries remain to find 12 in total,
+    while selecting the maximum available from the window
+    """
     batteries = list(bank)
     if '\n' in batteries:
         batteries.remove('\n')
